@@ -1,6 +1,6 @@
 {
 	"Name": "DBD Gauntlet Tournament Balancing ",
-	"Version": 1728579982,
+	"Version": 1730832826,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "For Survivor Items: No Double Charge Add ons. ",
 	"Tiers": [
@@ -8,8 +8,10 @@
 			"Name": "General",
 			"SurvivorIndvPerkBans": [
 				"0",
+				"3",
 				"5",
 				"6",
+				"52",
 				"7",
 				"258",
 				"13",
@@ -20,17 +22,20 @@
 				"247",
 				"19",
 				"20",
+				"22",
 				"23",
 				"24",
 				"25",
 				"60",
 				"246",
+				"28",
 				"29",
 				"43",
 				"268",
 				"267",
 				"46",
 				"261",
+				"49",
 				"55",
 				"56",
 				"252",
@@ -51,6 +56,7 @@
 				"86",
 				"90",
 				"96",
+				"97",
 				"98",
 				"99",
 				"102",
@@ -199,7 +205,7 @@
 			"KillerNotes": "",
 			"IsDisabled": false,
 			"Map": [
-				0
+				"33"
 			],
 			"BalanceTiers": [
 				0
@@ -210,21 +216,62 @@
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"1",
+				"8",
+				"21",
+				"34",
+				"36",
+				"38",
+				"39",
+				"44",
+				"54",
+				"57",
+				"61",
+				"65",
+				"259",
+				"76",
+				"77",
+				"89",
+				"96",
+				"92",
+				"102",
+				"107",
+				"109",
+				"112",
+				"116",
+				"120",
+				"121",
+				"124",
+				"126",
+				"127",
+				"130"
+			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"IndividualAddonBans": [
+				39,
+				37
+			],
+			"ItemWhitelist": [
+				5,
+				0
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -239,8 +286,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				2,
+				5,
+				6
+			],
+			"KillerOfferings": [
+				0,
+				1
+			]
 		},
 		{
 			"Name": "The Hillbilly",
