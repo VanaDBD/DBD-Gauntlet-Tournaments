@@ -1,6 +1,6 @@
 {
 	"Name": "DBD Gauntlet Tournament Balancing ",
-	"Version": 1733879515,
+	"Version": 1739156103,
 	"MaxPerkRepetition": 1,
 	"GlobalNotes": "For Survivor Items: No Double Charge Add ons. ",
 	"Tiers": [
@@ -308,7 +308,7 @@
 			"KillerNotes": "",
 			"IsDisabled": false,
 			"Map": [
-				0
+				"6"
 			],
 			"BalanceTiers": [
 				0
@@ -317,26 +317,56 @@
 				0
 			],
 			"AntiFacecampPermitted": false,
-			"KillerIndvPerkBans": [],
+			"KillerIndvPerkBans": [
+				"132",
+				"174",
+				"178",
+				"180",
+				"204",
+				"219",
+				"220",
+				"225"
+			],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"38"
+			],
 			"SurvivorComboPerkBans": [],
-			"SurvivorWhitelistedPerks": [],
+			"SurvivorWhitelistedPerks": [
+				"69",
+				"76",
+				"77"
+			],
 			"SurvivorWhitelistedComboPerks": [],
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"IndividualAddonBans": [
+				54
+			],
+			"ItemWhitelist": [
+				8,
+				5,
+				0
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
 				},
 				"Med-Kit": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2
+					]
 				},
 				"Toolbox": {
 					"Addons": []
@@ -348,8 +378,14 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				2,
+				5
+			],
+			"KillerOfferings": [
+				0,
+				1
+			]
 		},
 		{
 			"Name": "The Nurse",
