@@ -1,8 +1,8 @@
 {
 	"Name": "DBD Gauntlet Tournament Balancing ",
-	"Version": 1740943388,
+	"Version": 1743548396,
 	"MaxPerkRepetition": 1,
-	"GlobalNotes": "For Survivor Items: No Double Charge Add ons. ",
+	"GlobalNotes": "For Survivor Items: No Double Charge Add ons. \n",
 	"Tiers": [
 		{
 			"Name": "General",
@@ -2152,10 +2152,10 @@
 		},
 		{
 			"Name": "The Lich",
-			"KillerNotes": "",
+			"KillerNotes": "\nVecna's Treasure Chests\nSurvivors are allowed to loot Vecna's Treasure Chests, however the Hand and Eye of Vecna (the items received for rolling a 20) are not allowed to be pulled from a chest should they be rolled. Similarly, normal items cannot be used, however they are allowed to be pulled out of the chest, so long as the survivor drops them afterwards (this is to allow the chest to be reused).\nSurvivors are permitted to use Vecna's Magic Items.",
 			"IsDisabled": false,
 			"Map": [
-				0
+				"33"
 			],
 			"BalanceTiers": [
 				0
@@ -2166,21 +2166,61 @@
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"1",
+				"8",
+				"11",
+				"21",
+				"273",
+				"34",
+				"36",
+				"38",
+				"39",
+				"44",
+				"54",
+				"57",
+				"61",
+				"65",
+				"70",
+				"77",
+				"80",
+				"95",
+				"92",
+				"107",
+				"109",
+				"112",
+				"121",
+				"124",
+				"126",
+				"127",
+				"130"
+			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [],
-			"IndividualAddonBans": [],
-			"ItemWhitelist": [],
+			"IndividualAddonBans": [
+				717,
+				718,
+				716
+			],
+			"ItemWhitelist": [
+				5,
+				0
+			],
 			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
-					"Addons": []
+					"Addons": [
+						1,
+						2,
+						3,
+						4
+					]
 				},
 				"Med-Kit": {
 					"Addons": []
@@ -2195,8 +2235,15 @@
 					"Addons": []
 				}
 			},
-			"SurvivorOfferings": [],
-			"KillerOfferings": []
+			"SurvivorOfferings": [
+				2,
+				5,
+				6
+			],
+			"KillerOfferings": [
+				0,
+				1
+			]
 		},
 		{
 			"Name": "The Dark Lord",
@@ -2248,6 +2295,54 @@
 		},
 		{
 			"Name": "The Houndmaster",
+			"KillerNotes": "",
+			"IsDisabled": false,
+			"Map": [
+				0
+			],
+			"BalanceTiers": [
+				0
+			],
+			"SurvivorBalanceTiers": [
+				0
+			],
+			"AntiFacecampPermitted": false,
+			"KillerIndvPerkBans": [],
+			"KillerComboPerkBans": [],
+			"SurvivorIndvPerkBans": [],
+			"SurvivorComboPerkBans": [],
+			"SurvivorWhitelistedPerks": [],
+			"SurvivorWhitelistedComboPerks": [],
+			"KillerWhitelistedPerks": [],
+			"KillerWhitelistedComboPerks": [],
+			"AddonTiersBanned": [],
+			"IndividualAddonBans": [],
+			"ItemWhitelist": [],
+			"AddonWhitelist": {
+				"Firecracker": {
+					"Addons": []
+				},
+				"Flashlight": {
+					"Addons": []
+				},
+				"Med-Kit": {
+					"Addons": []
+				},
+				"Toolbox": {
+					"Addons": []
+				},
+				"Key": {
+					"Addons": []
+				},
+				"Map": {
+					"Addons": []
+				}
+			},
+			"SurvivorOfferings": [],
+			"KillerOfferings": []
+		},
+		{
+			"Name": "The Ghoul",
 			"KillerNotes": "",
 			"IsDisabled": false,
 			"Map": [
